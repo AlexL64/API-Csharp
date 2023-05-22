@@ -31,21 +31,7 @@ public class CommentsController : ControllerBase
         return comment;
     }
 
-    /*[HttpGet("{taskId:length(24)}")]
-    [Route("api/[controller]/task")]
-    public async Task<ActionResult<Comment>> GetForTask(string taskId)
-    {
-        var comment = await _CommentsService.GetForTaskAsync(taskId);
-
-        if (comment is null)
-        {
-            return NotFound();
-        }
-
-        return comment;
-    }*/
-
-    [HttpGet("task/{taskId:length(24)}")]
+    [HttpGet("Task/{taskId:length(24)}")]
     public async Task<List<Comment>> GetForTask(string taskId) =>
         await _CommentsService.GetForTaskAsync(taskId);
 
@@ -85,6 +71,22 @@ public class CommentsController : ControllerBase
         }
 
         await _CommentsService.RemoveAsync(id);
+
+        return NoContent();
+    }
+
+
+    [HttpDelete("Task/{taskId:length(24)}")]
+    public async Task<IActionResult> DeleteForTask(string taskId)
+    {
+        var comment = await _CommentsService.GetForTaskAsync(taskId);
+
+        if (comment is null)
+        {
+            return NotFound();
+        }
+
+        await _CommentsService.RemoveForTaskAsync(taskId);
 
         return NoContent();
     }

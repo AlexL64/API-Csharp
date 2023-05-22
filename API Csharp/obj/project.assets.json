@@ -970,11 +970,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Alex\\source\\repos\\API Csharp\\API Csharp\\API Csharp.csproj",
+      "projectUniqueName": "C:\\Users\\Alex\\source\\repos\\API-Csharp\\API Csharp\\API Csharp.csproj",
       "projectName": "API Csharp",
-      "projectPath": "C:\\Users\\Alex\\source\\repos\\API Csharp\\API Csharp\\API Csharp.csproj",
+      "projectPath": "C:\\Users\\Alex\\source\\repos\\API-Csharp\\API Csharp\\API Csharp.csproj",
       "packagesPath": "C:\\Users\\Alex\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Alex\\source\\repos\\API Csharp\\API Csharp\\obj\\",
+      "outputPath": "C:\\Users\\Alex\\source\\repos\\API-Csharp\\API Csharp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -989,6 +989,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -1035,7 +1036,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

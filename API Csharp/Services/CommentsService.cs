@@ -38,6 +38,9 @@ namespace API_Csharp.Services
 
         public async System.Threading.Tasks.Task RemoveAsync(string id) =>
             await _commentsCollection.DeleteOneAsync(x => x.Id == id);
+
+        public async System.Threading.Tasks.Task RemoveForTaskAsync(string id) =>
+            await _commentsCollection.DeleteManyAsync(x => x.Task == id);
     }
 }
 

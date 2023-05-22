@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rLNNo+88G6TuRzfqjZlKEKiA1fCWDgsA7qk5Feq0p98efanNndZ1NDKCPCMiuA3dfN5veGhNi/LWy3wDj2W+3Q==",
+  "dgSpecHash": "DKIN8Y7tcUJkj6hSSBTL/0qWqvxxgRdOa9YM9CRFmRARO0AfuKk0Syge0ty/jgHJTB6qPDS6Cp1XfgFVc4z9QA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\source\\repos\\API Csharp\\API Csharp\\API Csharp.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\source\\repos\\API-Csharp\\API Csharp\\API Csharp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Alex\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Alex\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
